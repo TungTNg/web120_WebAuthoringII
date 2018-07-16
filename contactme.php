@@ -1,28 +1,6 @@
-
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<title>Tung The Coder Portal</title>
-<meta name="viewport" content="width=device-width" />
-<meta name="robots" content="noindex,nofollow" />
-<meta charset="utf-8">
-<script src="https://use.fontawesome.com/6a71565c22.js"></script>
-<link rel="stylesheet" href="css/nav.css" />
-<link rel="stylesheet" href="css/portal.css" />
-<link rel="stylesheet" href="css/form.css" />
-</head>
-
-<body>
-<!-- START WRAPPER -->
-<div class="wrapper">
-    
 <!-- START Header -->
 <?php include 'includes/header.php';?>
 <!-- END Header -->
-        
-<!-- START LEFT COL -->
-<section>
- <h2 class="pageID">This is where you can contact me!!!</h2>
 
 <!-- MAKE SURE YOU GET YOUR (3) IMAGES SAVED INTO YOUR IMAGES FOLDER -->
  <img src="images/desktop.jpg" class="desktop" alt="" />
