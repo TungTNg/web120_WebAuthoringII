@@ -10,6 +10,7 @@
 <link rel="stylesheet" href="/web120/css/nav.css" />
 <link rel="stylesheet" href="/web120/css/portal.css" />
 <link rel="stylesheet" href="/web120/css/form.css" />
+<link rel="stylesheet" href="<?=$css?>" />
 </head>
 
 <body>

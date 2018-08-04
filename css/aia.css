@@ -1,0 +1,43 @@
+  .customer {
+	  	border:1px solid black;
+  		}
+  		
+  .aia {
+	  	border:1px solid black;
+  		}
+  		
+  tr {
+	  	vertical-align:top;
+	  	}
+	  	
+  th {
+	  	background-color: gray;
+		color:white;
+		}
+		
+  .wrapper {
+		margin:0 auto;
+		}
+		
+  
+  @media all and (min-width:1400px) {
+	
+   .wrapper {
+		width:80%;
+		margin: auto;
+	}
+
+    section {
+		width:100%;
+	}
+	
+}
+
+
+/* TABLET */
+@media all and (min-width:737px) and (max-width:1399px) {
+	
+	section {
+		width:100%;
+	}
+}

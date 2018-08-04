@@ -4,12 +4,14 @@
    <meta charset='utf-8'>
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1">
-   <title>T-Coder Big</title>
+   <title>T-Coder Youtube</title>
 
    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
    <link rel="stylesheet" href="/web120/css/portal.css">
    <link rel="stylesheet" href="/web120/css/form.css" />
    <link rel="stylesheet" href="/web120/css/big_nav.css">
+   <link rel="stylesheet" href="/web120/css/big_content.css">
+   
 </head>
 <body>
     
@@ -38,44 +40,25 @@
       </ul>
     </nav>
  
-<section> 
- 
- <h2 class="pageID">~Tung Nguyen's BIG Website~</h2>
- 
- <img src="/web120/images/desktop.jpg" class="desktop" alt="" />
- <img src="/web120/images/phone.jpg" class="phone" alt="" />
- <p>This is the BIG project of web120. Here are five researches I've done:</p>
-    <ul>
-        <li><a href="https://www.tungthecoder.com/web120/big/flexbox.php">Flexbox</a></li>
-        <li><a href="https://www.tungthecoder.com/web120/big/galleries.php">Gallery</a> (Not yet completed)</li>
-        <li><a href="https://www.tungthecoder.com/web120/big/parallax.php">Parallax</a> (Not yet completed)</li>
-        <li><a href="https://www.tungthecoder.com/web120/big/shoppingcarts.php">Shopping Carts</a> (Not yet completed)</li>
-        <li><a href="https://www.tungthecoder.com/web120/big/siteapp.php">Website vs App</a></li>
-    </ul>
+    <!-- START LEFT COL -->
+    <section>
+        <h2 class="pageID">Youtube</h2>
+        <div class="embed-container">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/h2EC3JQIldk" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+        </div>
 
+    </section>
 
-	
-</section>
-<!-- END LEFT COL -->
-
-<!-- START RIGHT COL -->
-<aside>
- <h3>You can contact me by filling below forms:</h3>
- 
- 	<p><?php
-        /*
-         * Below are 2 different forms to be re-used       
-         * 
-         * Only use one at a time, comment out the other 1!       
-         *
-         */
-        include '../includes/simple.php'; #demonstrates a simple contact form
-        //include 'includes/multiple.php';#demonstrates multiple form elements
-
-	?></p>
-	<p class="clear-recaptcha"></p>
-	
-</aside>
+    <!-- START RIGHT COL -->
+    <aside>
+        <h2>Support resource links:</h2>
+        <ol>
+            <li><a href="https://www.netguru.co/blog/nodejs-vs-php">Node.js vs. PHP: Which Environment To Choose For Your Next Project?</a></li>
+            <li><a href="https://codeburst.io/node-js-vs-php-battle-of-supremacy-survival-2a16df11ff29">Node.Js Vs PHP : Battle of Supremacy & survival</a></li>
+            <li><a href="https://www.hostingadvice.com/blog/comparing-node-js-vs-php-performance/">Comparing Node.js vs PHP Performance</a></li>
+        </ol>
+    </aside>
+    <!-- END RIGHT COL -->
 
 <?php include '../includes/footer.php';?>
 

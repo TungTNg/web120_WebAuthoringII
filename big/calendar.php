@@ -4,12 +4,15 @@
    <meta charset='utf-8'>
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1">
-   <title>T-Coder Big</title>
+   <title>T-Coder Google Calendar</title>
 
    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
    <link rel="stylesheet" href="/web120/css/portal.css">
    <link rel="stylesheet" href="/web120/css/form.css" />
    <link rel="stylesheet" href="/web120/css/big_nav.css">
+   <link rel="stylesheet" href="/web120/css/big_content.css">
+   <link rel="stylesheet" href="/web120/css/big_content.css">
+   
 </head>
 <body>
     
@@ -38,44 +41,25 @@
       </ul>
     </nav>
  
-<section> 
- 
- <h2 class="pageID">~Tung Nguyen's BIG Website~</h2>
- 
- <img src="/web120/images/desktop.jpg" class="desktop" alt="" />
- <img src="/web120/images/phone.jpg" class="phone" alt="" />
- <p>This is the BIG project of web120. Here are five researches I've done:</p>
-    <ul>
-        <li><a href="https://www.tungthecoder.com/web120/big/flexbox.php">Flexbox</a></li>
-        <li><a href="https://www.tungthecoder.com/web120/big/galleries.php">Gallery</a> (Not yet completed)</li>
-        <li><a href="https://www.tungthecoder.com/web120/big/parallax.php">Parallax</a> (Not yet completed)</li>
-        <li><a href="https://www.tungthecoder.com/web120/big/shoppingcarts.php">Shopping Carts</a> (Not yet completed)</li>
-        <li><a href="https://www.tungthecoder.com/web120/big/siteapp.php">Website vs App</a></li>
-    </ul>
+    <!-- START LEFT COL -->
+    <section>
+        <h2 class="pageID">Google Calendar</h2>
+        <div class="embed-container agenda-view">
+            <iframe src="https://calendar.google.com/calendar/embed?src=mecer80%40gmail.com&ctz=America%2FLos_Angeles" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+        </div>
 
+    </section>
 
-	
-</section>
-<!-- END LEFT COL -->
-
-<!-- START RIGHT COL -->
-<aside>
- <h3>You can contact me by filling below forms:</h3>
- 
- 	<p><?php
-        /*
-         * Below are 2 different forms to be re-used       
-         * 
-         * Only use one at a time, comment out the other 1!       
-         *
-         */
-        include '../includes/simple.php'; #demonstrates a simple contact form
-        //include 'includes/multiple.php';#demonstrates multiple form elements
-
-	?></p>
-	<p class="clear-recaptcha"></p>
-	
-</aside>
+    <!-- START RIGHT COL -->
+    <aside>
+        <h2>Here are some events for this month:</h2>
+        <ol>
+            <li>08/22 - weconnect® Seattle Startup and Tech Networking Mixer powered by Google</li>
+            <li>Event B</li>
+            <li>Event C</li>
+        </ol>
+    </aside>
+    <!-- END RIGHT COL -->
 
 <?php include '../includes/footer.php';?>
 

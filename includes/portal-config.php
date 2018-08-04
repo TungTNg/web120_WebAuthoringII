@@ -27,6 +27,14 @@ switch(THIS_PAGE){
         $title = "T-Coder Big Page";
         $logo = 'fa-home';
         $PageID = 'Welcome to the big page!!!';
+        
+    break;
+    
+    case 'aia.php':
+        $title = "T-Coder AIA Page";
+        $logo = 'fa-home';
+        $css = "/web120/css/aia.css";
+        
     break;
     
     case 'contactme.php':

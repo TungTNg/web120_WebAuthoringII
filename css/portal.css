@@ -43,16 +43,27 @@ footer {
 	clear:both;
 }
 
+#footerID {
+    text-align: center;
+}
+
 .pageID {
     text-align: center;
     margin: 1em 1em;
 }
+
 
 /* START RESPONSIVE STYLES */
 
 /* DESKTOP */
 @media all and (min-width:1400px) {
 	
+    p + ul li {
+    /*margin-left: 30rem;*/
+    position: relative;
+    left: 2.5em;
+    }
+    
    div.wrapper {
 		width:80%;
 		margin:auto;
@@ -63,7 +74,7 @@ footer {
 		float:left;
 	}
 	
-     aside {	
+    aside {	
 		width:34%;
 		float:right;
 	}
@@ -73,7 +84,7 @@ footer {
       		float:left;
        		width:50%;
        		margin: 0 1.25rem 1.25rem;
-   	 }
+   	}
     
     img.tablet, img.phone {
        		 display:none;

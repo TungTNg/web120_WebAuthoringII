@@ -1,0 +1,22 @@
+h2 {
+    text-align: center;
+}
+
+#content {
+    padding: 0 20px 20px 20px;
+}
+
+code {
+    background-color: #eee;
+    border: 1px solid #999;
+    display: block;
+    padding: 20px;
+}
+
+#content li {
+    padding: 10px 40px;
+}
+
+ul {
+    padding-right: 5px;
+}
